@@ -1,0 +1,84 @@
+body {
+    background-color: #45a049;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 25px 30px 15px 15px;
+    /* top right bottom left  */
+    border: 2px solid grey 0px 0px 20px;
+    border-style: outset;
+    border-color: black;
+    box-sizing: border-box;
+   
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="radio"],
+form input[type="checkbox"] {
+    height: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        max-width: none;
+    }
+}
+
+
+.dataTable {
+    display: flex;
+    flex-wrap: wrap;
+}
